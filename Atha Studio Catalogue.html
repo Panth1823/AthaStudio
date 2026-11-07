@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Atha Studio · Catalogue</title>
+<meta name="description" content="Handmade art and objects from Atha Studio. Browse the catalogue and enquire on WhatsApp.">
+<meta property="og:title" content="Atha Studio catalogue">
+<meta property="og:description" content="Handmade art and objects. Prices in INR and USD.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap">
+<style>
+:root{--bg:#f4f6f3;--card:#fff;--ink:#1d2230;--mute:#5d6577;--line:#d9ded8;--acc:#2c3bb8;--acc-ink:#fff;--ok:#1f7a4d;--sold:#8a4b3d;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14171f;--card:#1c202b;--ink:#eef0f5;--mute:#a2a9ba;--line:#2e3442;--acc:#8d9bff;--acc-ink:#10132b;--ok:#6fd1a1;--sold:#e0907f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#14171f;--card:#1c202b;--ink:#eef0f5;--mute:#a2a9ba;--line:#2e3442;--acc:#8d9bff;--acc-ink:#10132b;--ok:#6fd1a1;--sold:#e0907f;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 "Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:0 18px}
+header{padding:36px 0 18px}
+h1{margin:0;font-weight:800;font-size:clamp(2.4rem,9vw,4.6rem);line-height:.95;letter-spacing:-.03em}
+.tag{margin:10px 0 0;color:var(--mute);max-width:46ch}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:14px 0;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5;border-bottom:1px solid var(--line)}
+input[type=search]{flex:1 1 180px;min-width:0;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font:inherit}
+button{font:inherit;cursor:pointer}
+.chip{padding:7px 14px;border:1px solid var(--line);border-radius:99px;background:transparent;color:var(--ink)}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.cur{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.cur button{padding:9px 14px;border:0;background:var(--card);color:var(--ink)}
+.cur button[aria-pressed=true]{background:var(--acc);color:var(--acc-ink)}
+:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.cats{display:flex;flex-wrap:wrap;gap:8px;width:100%}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;padding:22px 0 40px}
+@media (min-width:760px){.grid{grid-template-columns:repeat(3,1fr);gap:22px}}
+@media (min-width:1000px){.grid{grid-template-columns:repeat(4,1fr)}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:6px;overflow:hidden;text-align:left;padding:0;color:inherit;display:flex;flex-direction:column}
+.card img,.big img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block;background:var(--line)}
+.card .t{padding:12px 14px 14px}
+.card h3{margin:0;font-size:1rem;font-weight:600}
+.meta{color:var(--mute);font-size:.85rem}
+.price{font-weight:800;margin-top:4px}
+.badge{font-size:.78rem;font-weight:600}
+.available{color:var(--ok)}.sold{color:var(--sold)}.made_to_order{color:var(--acc)}
+.card.is-sold img{filter:grayscale(.7);opacity:.75}
+dialog{border:0;border-radius:10px;padding:0;max-width:760px;width:calc(100% - 24px);background:var(--card);color:var(--ink)}
+dialog::backdrop{background:rgba(10,12,20,.6)}
+.dl{display:grid;gap:0}
+@media (min-width:640px){.dl{grid-template-columns:1fr 1fr}}
+.dl .info{padding:20px}
+.dl h2{margin:0 0 4px;font-size:1.6rem;letter-spacing:-.02em}
+dl{margin:14px 0;display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:.92rem}
+dt{color:var(--mute)}dd{margin:0}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.btn{display:inline-block;padding:12px 18px;border-radius:10px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;font-weight:600;background:transparent}
+.btn.main{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
+.close{position:absolute;right:10px;top:10px;border:0;background:var(--card);color:var(--ink);border-radius:99px;width:38px;height:38px;font-size:1.3rem}
+.empty{padding:50px 0;color:var(--mute)}
+footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--mute);font-size:.88rem}
+@media (prefers-reduced-motion:no-preference){.card{transition:transform .15s}.card:hover{transform:translateY(-3px)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>Atha Studio</h1>
+<p class="tag">Handmade art and objects. Choose a piece, then message us to buy or ask about custom work.</p>
+</header>
+<div class="bar">
+<input type="search" id="q" placeholder="Search by name or SKU" aria-label="Search products">
+<div class="cur" role="group" aria-label="Currency"><button id="inr" aria-pressed="true">₹ INR</button><button id="usd" aria-pressed="false">$ USD</button></div>
+<div class="cats" id="cats" role="group" aria-label="Categories"></div>
+</div>
+<main><div class="grid" id="grid" aria-live="polite"></div></main>
+<footer>Prices are fixed per currency. International shipping is quoted on enquiry. <span id="ig"></span></footer>
+</div>
+<dialog id="dlg" aria-label="Product details"></dialog>
+
+<!-- ===== CONFIG: edit these two lines ===== -->
+<script>
+const CONFIG={whatsapp:"91XXXXXXXXXX",instagram:"athastudio"}; /* WhatsApp: country code + number, digits only */
+</script>
+
+<!-- ===== PRODUCTS: same schema as the PRD. Edit, add or mark status "sold". images: ["images/ATH-EAR-001-1.webp"] ===== -->
+<script type="application/json" id="products">
+[
+{"sku":"ATH-EAR-001","name":"Hand-painted clay earrings","category":"Earrings","description":"Lightweight polymer clay, hand painted and sealed. Hypoallergenic steel hooks.","materials":"Polymer clay, steel","dimensions":"4 × 2 cm","price_inr":1200,"price_usd":35,"status":"available","images":[]},
+{"sku":"ATH-EAR-002","name":"Brushstroke drop earrings","category":"Earrings","description":"Each pair is painted freehand, so no two are identical.","materials":"Resin, brass","dimensions":"5 × 1.5 cm","price_inr":1500,"price_usd":42,"status":"made_to_order","images":[]},
+{"sku":"ATH-PRT-001","name":"Monsoon study, A4 print","category":"Prints","description":"Giclée print of an original watercolour on 300 gsm cotton paper.","materials":"Cotton rag paper","dimensions":"A4","price_inr":1800,"price_usd":48,"status":"available","images":[]},
+{"sku":"ATH-PRT-002","name":"Indigo garden, A3 print","category":"Prints","description":"Limited run of 25, signed and numbered.","materials":"Cotton rag paper","dimensions":"A3","price_inr":3200,"price_usd":80,"status":"sold","images":[]},
+{"sku":"ATH-HOM-001","name":"Painted ceramic dish","category":"Home","description":"Small trinket dish, glazed and food-safe on the inside.","materials":"Stoneware","dimensions":"10 cm wide","price_inr":900,"price_usd":26,"status":"available","images":[]},
+{"sku":"ATH-HOM-002","name":"Hand-bound sketchbook","category":"Home","description":"Thread-bound, 80 pages of heavy paper, painted cover.","materials":"Paper, cotton thread","dimensions":"15 × 21 cm","price_inr":1400,"price_usd":38,"status":"made_to_order","images":[]}
+]
+</script>
+
+<script>
+const P=JSON.parse(document.getElementById("products").textContent);
+const $=id=>document.getElementById(id);
+const LABEL={available:"Available",made_to_order:"Made to order",sold:"Sold"};
+let cur="INR",cat="All",q="";
+try{cur=localStorage.getItem("atha-cur")||"INR"}catch(e){}
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const price=p=>cur==="INR"?"₹"+p.price_inr.toLocaleString("en-IN"):"$"+p.price_usd.toLocaleString("en-US");
+function ph(sku){ // painted-swatch placeholder from the SKU
+ let h=0;for(const c of sku)h=(h*31+c.charCodeAt(0))%360;
+ const s=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500"><rect width="400" height="500" fill="hsl(${h},30%,88%)"/><circle cx="130" cy="170" r="120" fill="hsl(${h},55%,55%)" opacity=".85"/><circle cx="270" cy="300" r="140" fill="hsl(${(h+50)%360},60%,62%)" opacity=".8"/><path d="M0 420 Q120 340 240 400 T400 380 V500 H0Z" fill="hsl(${(h+200)%360},45%,38%)" opacity=".85"/></svg>`;
+ return "data:image/svg+xml,"+encodeURIComponent(s);
+}
+const img=(p,i=0)=>`<img src="${esc(p.images&&p.images[i]||ph(p.sku))}" alt="${esc(p.name)}" loading="lazy" onerror="this.onerror=null;this.src='${ph(p.sku)}'">`;
+function render(){
+ const cats=["All",...new Set(P.map(p=>p.category))];
+ $("cats").innerHTML=cats.map(c=>`<button class="chip" data-c="${esc(c)}" aria-pressed="${c===cat}">${esc(c)}</button>`).join("");
+ $("inr").setAttribute("aria-pressed",cur==="INR");$("usd").setAttribute("aria-pressed",cur==="USD");
+ const t=q.toLowerCase();
+ const list=P.filter(p=>(cat==="All"||p.category===cat)&&(!t||(p.name+p.sku+p.description).toLowerCase().includes(t)));
+ $("grid").innerHTML=list.length?list.map(p=>`<button class="card ${p.status==="sold"?"is-sold":""}" data-s="${esc(p.sku)}">${img(p)}<span class="t"><h3>${esc(p.name)}</h3><span class="meta">${esc(p.category)}</span><div class="price">${price(p)}</div><span class="badge ${p.status}">${LABEL[p.status]||""}</span></span></button>`).join(""):`<p class="empty">No products match. Try another search or category.</p>`;
+}
+function open(sku){
+ const p=P.find(x=>x.sku===sku);if(!p)return;
+ const msg=encodeURIComponent(`Hi Atha Studio, I’m interested in ${p.name} (${p.sku}). Is it available?`);
+ const sold=p.status==="sold";
+ $("dlg").innerHTML=`<button class="close" aria-label="Close" data-x>×</button><div class="dl"><div class="big">${img(p)}</div><div class="info"><h2>${esc(p.name)}</h2><div class="price">${price(p)} <span class="meta">(${cur==="INR"?"$"+p.price_usd:"₹"+p.price_inr.toLocaleString("en-IN")})</span></div><span class="badge ${p.status}">${LABEL[p.status]||""}</span><p>${esc(p.description)}</p><dl><dt>SKU</dt><dd>${esc(p.sku)}</dd>${p.materials?`<dt>Materials</dt><dd>${esc(p.materials)}</dd>`:""}${p.dimensions?`<dt>Size</dt><dd>${esc(p.dimensions)}</dd>`:""}</dl><div class="cta"><a class="btn main" href="https://wa.me/${esc(CONFIG.whatsapp)}?text=${msg}" target="_blank" rel="noopener">${sold?"Ask for something similar":"Buy or enquire on WhatsApp"}</a><a class="btn" href="https://ig.me/m/${esc(CONFIG.instagram)}" target="_blank" rel="noopener">Message on Instagram</a></div></div></div>`;
+ if(!$("dlg").open)$("dlg").showModal();
+ history.replaceState(null,"","#"+sku);
+}
+$("grid").addEventListener("click",e=>{const b=e.target.closest("[data-s]");if(b)open(b.dataset.s)});
+$("cats").addEventListener("click",e=>{const b=e.target.closest("[data-c]");if(b){cat=b.dataset.c;render()}});
+$("q").addEventListener("input",e=>{q=e.target.value;render()});
+$("inr").onclick=()=>{cur="INR";save()};$("usd").onclick=()=>{cur="USD";save()};
+function save(){try{localStorage.setItem("atha-cur",cur)}catch(e){}render();if($("dlg").open){const s=location.hash.slice(1);open(s)}}
+$("dlg").addEventListener("click",e=>{if(e.target===$("dlg")||e.target.closest("[data-x]"))$("dlg").close()});
+$("dlg").addEventListener("close",()=>history.replaceState(null,"",location.pathname+location.search));
+$("ig").innerHTML=`Instagram: <a href="https://instagram.com/${esc(CONFIG.instagram)}" target="_blank" rel="noopener" style="color:inherit">@${esc(CONFIG.instagram)}</a>`;
+render();
+if(location.hash)open(location.hash.slice(1));
+</script>
+</body>
+</html>

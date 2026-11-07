@@ -1,0 +1,74 @@
+[
+  {
+    "sku": "ATH-EAR-001",
+    "name": "Hand-painted clay earrings",
+    "category": "Earrings",
+    "description": "Lightweight polymer clay, hand painted and sealed. Hypoallergenic steel hooks.",
+    "materials": "Polymer clay, steel",
+    "dimensions": "4 × 2 cm",
+    "price_inr": 1200,
+    "price_usd": 35,
+    "status": "available",
+    "images": []
+  },
+  {
+    "sku": "ATH-EAR-002",
+    "name": "Brushstroke drop earrings",
+    "category": "Earrings",
+    "description": "Each pair is painted freehand, so no two are identical.",
+    "materials": "Resin, brass",
+    "dimensions": "5 × 1.5 cm",
+    "price_inr": 1500,
+    "price_usd": 42,
+    "status": "made_to_order",
+    "images": []
+  },
+  {
+    "sku": "ATH-PRT-001",
+    "name": "Monsoon study, A4 print",
+    "category": "Prints",
+    "description": "Giclée print of an original watercolour on 300 gsm cotton paper.",
+    "materials": "Cotton rag paper",
+    "dimensions": "A4",
+    "price_inr": 1800,
+    "price_usd": 48,
+    "status": "available",
+    "images": []
+  },
+  {
+    "sku": "ATH-PRT-002",
+    "name": "Indigo garden, A3 print",
+    "category": "Prints",
+    "description": "Limited run of 25, signed and numbered.",
+    "materials": "Cotton rag paper",
+    "dimensions": "A3",
+    "price_inr": 3200,
+    "price_usd": 80,
+    "status": "sold",
+    "images": []
+  },
+  {
+    "sku": "ATH-HOM-001",
+    "name": "Painted ceramic dish",
+    "category": "Home",
+    "description": "Small trinket dish, glazed and food-safe on the inside.",
+    "materials": "Stoneware",
+    "dimensions": "10 cm wide",
+    "price_inr": 900,
+    "price_usd": 26,
+    "status": "available",
+    "images": []
+  },
+  {
+    "sku": "ATH-HOM-002",
+    "name": "Hand-bound sketchbook",
+    "category": "Home",
+    "description": "Thread-bound, 80 pages of heavy paper, painted cover.",
+    "materials": "Paper, cotton thread",
+    "dimensions": "15 × 21 cm",
+    "price_inr": 1400,
+    "price_usd": 38,
+    "status": "made_to_order",
+    "images": []
+  }
+]

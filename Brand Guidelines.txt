@@ -1,0 +1,313 @@
+ATHA STUDIO
+
+Brand Guidelines
+
+How Atha Studio looks, sounds, and reads. Give this document to anyone creating content, designing products, building the website, or communicating on behalf of the brand.
+
+1. The idea in one line
+
+Tagline: Little things, reimagined to wear.
+
+Brand positioning: Atha Studio is an artist-led wearable-art brand that transforms familiar, often-overlooked details of everyday life into distinctive, hand-painted jewellery and accessories.
+
+Atha observes the world and sees artistic potential in things people might otherwise overlook. These can be everyday objects, childhood memories, movements, gestures, colours, patterns, nature, architecture, or cultural details from anywhere in the world.
+
+The artist then interprets these observations and transforms them into jewellery. The result is not simply a miniature copy of an object, but a new design that captures its character through sculptural forms, colour, and hand-painted detail.
+
+What Atha stands for:
+
+- Seeing the familiar differently.
+- Finding artistic possibilities in ordinary things.
+- Turning observations into original, wearable forms.
+- Making jewellery that has a distinctive idea behind it.
+- Creating pieces that feel artistic, expressive, collectible, and wearable.
+
+Who it is for: Art lovers, collectors, creative souls, fashion-conscious women who experiment with their style, and people who appreciate unusual design and the thinking behind what they wear.
+
+Brand personality: Observant, curious, artistic, expressive, thoughtful, quietly confident, and tactile.
+
+The feeling: Wonder, recognition, delight, pride, and a little desire.
+
+The brand promise: Atha turns familiar inspirations into unexpected wearable art through the artist's own interpretation and craftsmanship.
+
+In one sentence: Atha Studio notices the little things, sees them differently, and makes them wearable.
+
+2. Name
+
+- Official brand name: अtha Studio.
+- Instagram handle: @theatha.studio.
+- Founder and artist: Hetvi.
+- Primary tagline: Little things, reimagined to wear.
+- Supporting descriptor: Artist-made, hand-painted wearable art.
+
+Naming rules:
+
+- Always write अtha Studio with consistent capitalisation.
+- Do not use inconsistent spellings such as Athar Studio.
+- Use Atha Studio as the main brand name on Instagram, packaging, product cards, the catalogue, and the future website.
+- Use Hetvi's name when talking about the artist, creative process, or founder's perspective.
+
+The tagline communicates the brand's creative philosophy. The descriptor explains what the brand makes.
+
+3. Logo
+
+Existing logo: The handwritten Atha wordmark in warm brown, presented on a natural ivory fabric patch with stitched edges.
+
+Decision: Keep the existing logo. Refine the visual system around it rather than redesigning the wordmark.
+
+The handwritten lettering feels personal and artist-led. The fabric and stitching suggest tactility, craft, and the physical process of making something by hand. These qualities fit Atha's artistic identity.
+
+Logo versions:
+
+- Primary logo: Existing Atha wordmark.
+- Secondary lockup: Atha wordmark with “Studio” in an approved supporting typeface.
+- One-colour black: For light backgrounds and single-colour printing.
+- One-colour white: For dark backgrounds.
+- Profile icon: A tested crop or simplified version of the original wordmark, if legibility permits.
+
+Clear space: Provisionally, leave space equivalent to the height of the capital A around the logo.
+
+Minimum size: To be confirmed after testing the actual logo on mobile screens, product cards, packaging, and labels.
+
+Do:
+
+- Preserve the original lettering and proportions.
+- Maintain sufficient contrast.
+- Use the stitched fabric treatment where it adds tactile character.
+- Keep the logo consistent across brand touchpoints.
+
+Don't:
+
+- Stretch, rotate, or distort the wordmark.
+- Add shadows, outlines, or effects to the lettering.
+- Redraw the handwritten logo without approval.
+- Create a different logo for every collection.
+- Place the logo over busy artwork where it becomes difficult to read.
+
+The fabric patch can be a recurring visual element, but it does not need to appear in every post.
+
+4. Colour
+
+The colour system should feel warm, earthy, tactile, artistic, and quietly distinctive. It should complement the actual colours of the jewellery rather than compete with them.
+
+The following palette is proposed for testing against the supplied logo. The hex values are not yet confirmed official brand colours.
+
+Name| HEX| Purpose
+Studio Brown| "#604136"| Primary brand background
+Natural Ivory| "#F2E8DA"| Main light background
+Warm Taupe| "#927466"| Supporting surfaces
+Deep Ink| "#29251F"| Main text and contrast
+Antique Gold| "#AD8750"| Selective highlights
+Terracotta| "#A9573D"| Occasional accent
+
+Rules:
+
+- Brown and ivory establish the foundation of the brand identity.
+- Use warm neutrals for packaging, editorial layouts, and catalogue backgrounds.
+- Let individual collections introduce colours inspired by their artwork.
+- Use gold sparingly.
+- Keep product colours accurate.
+- Use natural-looking light instead of heavy yellow filters.
+- Avoid neon colours, arbitrary gradients, and unnecessary decorative colours.
+
+The brand should be recognisable through its consistent foundation, not by forcing every product into the same palette.
+
+5. Typography
+
+Status: Final supporting typefaces have not yet been approved.
+
+Recommended starting combination:
+
+- Headings: Cormorant Garamond, Medium.
+- Body text: DM Sans, Regular.
+- Logo: Existing handwritten Atha wordmark, unchanged.
+
+Both supporting typefaces are available through Google Fonts.
+
+Style| Weight| Suggested size| Use
+Headline| Medium| 32–44 px| Collection titles and campaigns
+Subheading| Medium| 20–26 px| Reel covers and section titles
+Body| Regular| 15–18 px| Website and catalogue
+Caption| Regular| 12–14 px| Labels and supporting details
+
+These sizes are starting points for digital design and should be adapted to each format.
+
+Rules:
+
+- Maintain a consistent hierarchy.
+- Use the same typography system across recurring Instagram formats.
+- Keep text legible on mobile.
+- Use expressive typography selectively.
+- Avoid excessive decorative fonts, childish lettering, and constantly changing styles.
+- Do not imitate the handwritten logo with unrelated script fonts throughout the brand.
+
+The typography should support the artwork and make the brand feel editorial, artistic, and considered.
+
+6. Layout
+
+Design principle: A thoughtful artist's studio where ordinary observations become wearable art.
+
+The layout should feel intentional, tactile, and peaceful. It should not feel sterile, excessively minimal, cluttered, or like a generic luxury template.
+
+Spacing and alignment:
+
+- Begin with approximately 24 px mobile margins.
+- Use a consistent spacing system of 8, 16, 24, and 32 px.
+- Leave breathing room around product photography.
+- Give each composition one clear focal point.
+- Use left-aligned text for editorial storytelling when appropriate.
+- Centre products or use asymmetrical compositions when they better express the design.
+
+Instagram grid:
+
+- Finished jewellery and styling.
+- Inspiration behind individual pieces.
+- Sculpting, painting, and creative experiments.
+- Artist-led storytelling.
+- Collection launches and product availability.
+
+The grid should feel like different pages from the same artist's world. Posts should not all look identical, but they should feel connected.
+
+Website and catalogue:
+
+- Large, accurate product images.
+- Clear product names, prices, and descriptions.
+- Easy-to-find material, size, care, and shipping information.
+- Consistent brand colours and typography.
+- A simple ordering experience.
+
+Avoid unnecessary borders, excessive rounded cards, stickers, and decorative elements that distract from the jewellery.
+
+7. Icons and imagery
+
+Visual direction: Artistic, observational, tactile, expressive, and rooted in the real world.
+
+Atha's imagery should communicate both the finished jewellery and the way the artist sees the world.
+
+Sources of inspiration:
+
+- Everyday objects and childhood memories.
+- Indian art, architecture, textiles, and cultural details.
+- Objects and visual traditions from other parts of the world.
+- Nature, animals, plants, and organic forms.
+- Movements, gestures, shadows, and silhouettes.
+- Colours, patterns, surfaces, and unexpected combinations.
+- Ordinary things that acquire a new meaning when viewed differently.
+
+India remains an important part of Atha's creative world, but the brand is not restricted to Indian inspiration.
+
+Product design rule: Interpret, don't merely reproduce.
+
+Identify what makes a subject interesting, simplify its details, and translate its character into a new jewellery silhouette or composition. Avoid making literal miniature replicas.
+
+Photography:
+
+- Warm, natural-looking light.
+- Tactile surfaces and considered backgrounds.
+- Accurate product colours.
+- Full-piece shots followed by close-up details.
+- Worn shots that communicate scale and styling.
+- Visible hand-painted details and sculptural construction.
+
+Video:
+
+- Hands sculpting, painting, experimenting, and refining.
+- The inspiration behind a piece, when relevant.
+- Deliberate camera movements and intentional framing.
+- The finished jewellery being worn.
+- Partial appearances of Hetvi when useful; the artist's full face is not required.
+
+Icons and illustration: Use restrained line icons or hand-drawn details only when they serve a clear purpose.
+
+Avoid:
+
+- Generic luxury props.
+- Heavy filters and inaccurate colours.
+- Overly sterile product photography.
+- Childish styling that conflicts with the design.
+- Trend-led transitions that distract from the artwork.
+- Repeated product-only images with no sense of the idea behind them.
+
+8. Mascot or character (optional)
+
+Current status: No official mascot or recurring character has been established.
+
+Atha does not need a mascot to become recognisable. Its strongest identity comes from its artistic perspective, distinctive jewellery, hand-painted details, and way of transforming observations into art.
+
+Potential future signature: A recurring editorial device that connects the original inspiration to the finished piece—for example, a small observational note, a sketch-like detail, or a consistent visual frame.
+
+This is an idea to explore, not an approved asset.
+
+Any future signature should work across Instagram, packaging, product cards, and the website without overpowering the artwork.
+
+9. Voice and copy
+
+How we sound: Observant, personal, curious, artistic, and quietly confident.
+
+Atha speaks like an artist sharing what caught her eye, why it interested her, and how she transformed it into a piece.
+
+The tone should be conversational and specific, with room for humour, emotion, and artistic reflection. It should not sound like a corporate jewellery company or rely on generic poetic language.
+
+We say:
+
+- “Little things, reimagined to wear.”
+- “I've seen this a hundred times. Today, I saw it differently.”
+- “I didn't want to make a miniature version. I wanted to capture its character.”
+- “An ordinary thing, seen from a different angle.”
+- “This piece started with a detail I couldn't stop looking at.”
+- “This is what happens when an observation becomes jewellery.”
+
+These are examples, not mandatory slogans.
+
+We don't say:
+
+- “Elevate your look with our exquisite collection.”
+- “Must-have accessories for every occasion.”
+- “Luxury at affordable prices.”
+- “Every piece tells a story” without explaining the actual idea.
+- Generic claims about uniqueness or craftsmanship without showing evidence.
+
+Storytelling structure: Notice → Interpret → Create → Wear → Invite.
+
+1. Notice: Start with an observation, question, or unexpected detail.
+2. Interpret: Explain what caught the artist's attention.
+3. Create: Show the transformation through sculpting, painting, and experimentation.
+4. Wear: Present the finished piece and how it looks on a person.
+5. Invite: Give viewers a natural way to respond, discover, or order.
+
+Not every post needs all five stages. Use the structure as a guide rather than a formula.
+
+Sales communication: Explain what makes the piece interesting, show it clearly, and make ordering straightforward. Communicate prices, materials, care, delivery timelines, customisation, and availability honestly.
+
+Language: Use natural English or Hinglish when appropriate. The writing should sound recognisably personal to Hetvi, not like a generic copywriting template.
+
+10. Files
+
+The final brand folder should contain:
+
+- Logo: Original artwork, transparent versions, monochrome versions, and approved lockups.
+- Fonts: Final approved typefaces and official links.
+- Colours: Confirmed HEX, RGB, and CMYK specifications.
+- Photography: Product images, lighting references, backgrounds, and approved visual references.
+- Video: Signature shot library, editing references, and Reel cover templates.
+- Product catalogue: Product names, photographs, prices, dimensions, materials, and care instructions.
+- Copy: Approved tagline, brand description, Instagram bio, product descriptions, and customer messages.
+- Website: Approved brand assets, product information, and design specifications.
+
+File links should be added once the final assets are organised and available.
+
+---
+
+The Atha Studio decision filter
+
+Before designing a product, publishing content, or launching a collection, ask:
+
+1. Did I notice something worth exploring?
+2. Is there a distinct artistic interpretation behind it?
+3. Does the result go beyond literal reproduction?
+4. Does it feel expressive, distinctive, and wearable?
+5. Does it reflect Atha's artistic perspective?
+6. Is the craftsmanship visible or meaningfully communicated?
+7. Would someone who appreciates art, fashion, and unusual design want to own it?
+
+The central principle: Atha Studio notices the little things, sees them differently, and transforms those observations into wearable art.

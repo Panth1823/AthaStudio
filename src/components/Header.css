@@ -1,0 +1,124 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--ivory);
+  border-bottom: 1px solid color-mix(in srgb, var(--taupe) 30%, transparent);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+/* Wordmark */
+.site-header__wordmark {
+  font-family: var(--font-heading);
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  flex-shrink: 0;
+}
+
+.site-header__wordmark:hover {
+  text-decoration: none;
+  color: var(--studio-brown);
+}
+
+/* Desktop nav — hidden on mobile */
+.site-header__nav {
+  display: none;
+}
+
+.site-header__nav-list {
+  list-style: none;
+  display: flex;
+  gap: var(--space-32);
+}
+
+.site-header__nav-link {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  transition: color 180ms ease;
+}
+
+.site-header__nav-link:hover {
+  color: var(--terracotta);
+  text-decoration: none;
+}
+
+/* Hamburger toggle — visible on mobile */
+.site-header__menu-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--ink);
+  font-size: 20px;
+}
+
+/* Mobile drawer */
+.site-header__mobile-nav {
+  display: none;
+  background-color: var(--ivory);
+  border-top: 1px solid color-mix(in srgb, var(--taupe) 30%, transparent);
+  padding-block: var(--space-16);
+  padding-inline: var(--side-margin);
+}
+
+.site-header__mobile-nav.is-open {
+  display: block;
+}
+
+.site-header__mobile-nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.site-header__mobile-link {
+  display: block;
+  font-family: var(--font-body);
+  font-size: var(--text-body-mobile);
+  color: var(--ink);
+  text-decoration: none;
+  padding-block: var(--space-16);
+  border-bottom: 1px solid color-mix(in srgb, var(--taupe) 20%, transparent);
+  min-height: 44px;
+}
+
+.site-header__mobile-link:hover {
+  color: var(--terracotta);
+  text-decoration: none;
+}
+
+/* Switch to desktop layout */
+@media (min-width: 768px) {
+  .site-header__nav {
+    display: block;
+  }
+
+  .site-header__menu-toggle {
+    display: none;
+  }
+
+  .site-header__mobile-nav {
+    display: none !important;
+  }
+}
+

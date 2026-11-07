@@ -1,0 +1,37 @@
+.placeholder {
+  position: relative;
+  width: 100%;
+  background-color: #D9D4CC;
+  border-radius: var(--radius-card, 16px);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.placeholder__caption {
+  font-family: var(--font-body);
+  font-size: var(--text-label);
+  color: color-mix(in srgb, var(--ink) 50%, transparent);
+  letter-spacing: var(--ls-label);
+  text-align: center;
+  padding: var(--space-16);
+  user-select: none;
+}
+
+.placeholder__credit {
+  position: absolute;
+  bottom: var(--space-16);
+  left: var(--space-16);
+  background-color: rgba(41, 37, 31, 0.65);
+  color: var(--ivory);
+  font-family: var(--font-body);
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  letter-spacing: 0.02em;
+  pointer-events: none;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
