@@ -1,38 +1,48 @@
 import React from "react";
 import Placeholder from "./Placeholder";
-import { CATEGORIES, COPY } from "../data/content";
-import { useReveal } from "../hooks/useReveal";
-import "./CategoryGrid.css";
+import { CATEGORIES } from "../data/content";
 
-const CategoryGrid: React.FC = () => {
-  const { ref, isVisible } = useReveal();
+interface CategoryGridProps {
+  /** Category currently shown in the product grid, or null for all pieces. */
+  activeCategory: string | null;
+  /** Called with a category label, or null to clear the filter. */
+  onSelectCategory: (label: string | null) => void;
+}
 
+const CategoryGrid: React.FC<CategoryGridProps> = ({ activeCategory, onSelectCategory }) => {
   return (
-    <section
-      id="shop"
-      className="category-grid-section"
-      aria-labelledby="category-heading"
-      ref={ref as React.RefObject<HTMLElement>}
-    >
-      <div className={`container reveal${isVisible ? " is-visible" : ""}`}>
-        <h2 id="category-heading" className="category-grid-section__heading">
-          {COPY.categoryHeading}
-        </h2>
+    <ul className="category-grid" role="list">
+      {CATEGORIES.map((cat) => {
+        const isActive = activeCategory === cat.label;
 
-        <ul className="category-grid" role="list">
-          {CATEGORIES.map((cat) => (
-            <li key={cat.label} className="category-grid__item">
-              <a href={`#${cat.label.toLowerCase()}`} className="category-grid__link">
-                <Placeholder ratio="1/1" caption={cat.placeholderCaption} />
-                <span className="label category-grid__label">{cat.label}</span>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </section>
+        return (
+          <li key={cat.label} className="category-grid__item">
+            <button
+              type="button"
+              className="category-grid__link"
+              aria-pressed={isActive}
+              onClick={() => onSelectCategory(cat.label)}
+            >
+              {cat.image ? (
+                <img
+                  className="category-grid__image"
+                  src={cat.image}
+                  alt={cat.imageAlt ?? ""}
+                  width={800}
+                  height={1000}
+                  loading="lazy"
+                  decoding="async"
+                />
+              ) : (
+                <Placeholder ratio="4/5" caption={cat.placeholderCaption} />
+              )}
+              <span className="label category-grid__label">{cat.label}</span>
+            </button>
+          </li>
+        );
+      })}
+    </ul>
   );
 };
 
 export default CategoryGrid;
-

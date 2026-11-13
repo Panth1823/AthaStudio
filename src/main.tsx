@@ -5,8 +5,8 @@ import ReactDOM from "react-dom/client";
 import "@fontsource/cormorant-garamond/500.css";
 import "@fontsource/dm-sans/400.css";
 
-// Global styles (tokens → global)
-import "./styles/global.css";
+// Main consolidated styles
+import "./styles/main.css";
 
 import App from "./App";
 

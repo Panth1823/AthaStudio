@@ -1,22 +1,9 @@
 import React from "react";
 import Placeholder from "./Placeholder";
 import { buildWhatsAppLink } from "../config";
-import "./ProductCard.css";
+import type { Product, ProductStatus } from "../data/products";
 
-export type ProductStatus = "available" | "made_to_order" | "sold";
-
-export interface Product {
-  sku: string;
-  name: string;
-  category: string;
-  description: string;
-  materials: string;
-  dimensions: string;
-  price_inr: number;
-  price_usd: number;
-  status: ProductStatus;
-  images: string[];
-}
+export type { Product, ProductStatus } from "../data/products";
 
 interface ProductCardProps {
   product: Product;

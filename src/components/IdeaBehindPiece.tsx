@@ -2,7 +2,6 @@ import React from "react";
 import Placeholder from "./Placeholder";
 import { COPY } from "../data/content";
 import { useReveal } from "../hooks/useReveal";
-import "./IdeaBehindPiece.css";
 
 const IdeaBehindPiece: React.FC = () => {
   const { ref, isVisible } = useReveal();

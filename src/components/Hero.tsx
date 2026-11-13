@@ -2,7 +2,6 @@ import React from "react";
 import Placeholder from "./Placeholder";
 import { COPY } from "../data/content";
 import { useReveal } from "../hooks/useReveal";
-import "./Hero.css";
 
 const Hero: React.FC = () => {
   const { ref, isVisible } = useReveal(0.1);

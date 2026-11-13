@@ -2,7 +2,6 @@ import React from "react";
 import { COPY } from "../data/content";
 import { buildWhatsAppLink, buildInstagramLink } from "../config";
 import { useReveal } from "../hooks/useReveal";
-import "./EnquireBand.css";
 
 const WHATSAPP_MESSAGE =
   "Hi Atha Studio! I found you through your website and I'd love to enquire about a piece.";

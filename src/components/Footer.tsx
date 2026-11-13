@@ -1,7 +1,6 @@
 import React from "react";
 import { COPY } from "../data/content";
 import { buildInstagramLink } from "../config";
-import "./Footer.css";
 
 const Footer: React.FC = () => {
   return (
